@@ -14,3 +14,7 @@ echo ""
 echo "Memory Usage" >> $REPORT
 free -m >> $REPORT
 echo ""
+
+echo "Disk usage" >> $REPORT
+df -h >> $REPORT
+echo ""
