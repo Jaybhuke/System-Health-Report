@@ -18,3 +18,6 @@ echo ""
 echo "Disk usage" >> $REPORT
 df -h >> $REPORT
 echo ""
+
+echo "Top Processes" >> $REPORT
+ps -eo pid,ppid,cmd,%mem,%cpu --sort=-%cpu | head -n 6 >> $REPORT
