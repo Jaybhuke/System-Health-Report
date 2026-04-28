@@ -9,3 +9,8 @@ echo "--------------------" >> $REPORT
 
 echo "CPU Usage" >> $REPORT
 top -bn1 | grep "Cpu(s)" >> $REPORT
+echo ""
+
+echo "Memory Usage" >> $REPORT
+free -m >> $REPORT
+echo ""
