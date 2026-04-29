@@ -1,2 +1,49 @@
-System Health Report Tue Apr 28 19:19:47 UTC 2026
+System Health Report Tue Apr 28 19:46:24 UTC 2026
 --------------------
+CPU Usage
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+Memory Usage
+               total        used        free      shared  buff/cache   available
+Mem:             916         122         521           0         272         656
+Swap:              0           0           0
+Disk usage
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          4.0M     0  4.0M   0% /dev
+tmpfs             459M     0  459M   0% /dev/shm
+tmpfs             184M  444K  183M   1% /run
+/dev/nvme0n1p1    8.0G  1.8G  6.2G  23% /
+tmpfs             459M     0  459M   0% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
+Top Processes
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /usr/lib/systemd/systemd --  1.8  0.0
+      2       0 [kthreadd]                   0.0  0.0
+      3       2 [rcu_gp]                     0.0  0.0
+      4       2 [rcu_par_gp]                 0.0  0.0
+      5       2 [slub_flushwq]               0.0  0.0
+--------------------
+System Health Report Wed Apr 29 19:09:36 UTC 2026
+--------------------
+-----------CPU Usage-------------
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st
+-----------Memory Usage-----------
+               total        used        free      shared  buff/cache   available
+Mem:             916         133         520           0         262         646
+Swap:              0           0           0
+-----------Disk usage-------------
+Filesystem        Size  Used Avail Use% Mounted on
+devtmpfs          4.0M     0  4.0M   0% /dev
+tmpfs             459M     0  459M   0% /dev/shm
+tmpfs             184M  444K  183M   1% /run
+/dev/nvme0n1p1    8.0G  1.8G  6.2G  23% /
+tmpfs             459M     0  459M   0% /tmp
+/dev/nvme0n1p128   10M  1.3M  8.7M  13% /boot/efi
+tmpfs              92M     0   92M   0% /run/user/1000
+-----------Top Processes-----------
+    PID    PPID CMD                         %MEM %CPU
+      1       0 /usr/lib/systemd/systemd --  1.8  0.1
+      2       0 [kthreadd]                   0.0  0.0
+      3       2 [rcu_gp]                     0.0  0.0
+      4       2 [rcu_par_gp]                 0.0  0.0
+      5       2 [slub_flushwq]               0.0  0.0
